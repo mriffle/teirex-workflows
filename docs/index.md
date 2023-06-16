@@ -2,30 +2,23 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Below are links to the documentation for each workflow, which include instructions for installing, running, and interpreting the output of each workflow.
 
-[Link to another page](./another-page.html).
+## _DIA - peptide search and quantification_
 
-There should be whitespace between paragraphs.
+This workflow runs `msconvert`, `EncyclopeDIA`, and `Skyline` to run a DIA workflow for discovering and quantifying peptides.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+See: [DIA Workflow Documentation](http://nf-teirex-dia.rtfd.io/)
 
-# Header 1
+## _DDA - peptide search_
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This workflow runs `msconvert`, `Comet`, `Percolator`, and `Limelight` to run a DDA workflow for bottom up proteomics and subsequent visualization and sharing.
 
-## Header 2
+See: [DDA Workflow Documentation](http://nf-teirex-dda.rtfd.io/)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Open Modification DDA
 
-### Header 3
+This workflow runs `msconvert`, `Magnum`, `Percolator`, and `Limelight` to run a DDA workflow for discovery of peptides and modification or adduct masses
+that may be present in the data, without _a priori_ knowledge of what masses may be present.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+See: [Open Modication Workflow Documentation](http://nf-openmod-dda.rtfd.io/)

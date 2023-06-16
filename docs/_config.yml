@@ -19,15 +19,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site serves as a launch pad to finding documentation for
   the Nextflow computational workflows developed as part of the
   IARPA TEI-REX project.
-baseurl: "teirex-workflows" # the subpath of your site, e.g. /blog
+baseurl: "/teirex-workflows" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: jekyll-theme-slate
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
