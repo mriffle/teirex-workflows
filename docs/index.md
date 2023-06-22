@@ -22,3 +22,9 @@ This workflow runs `msconvert`, `Magnum`, `Percolator`, and `Limelight` to run a
 that may be present in the data, without _a priori_ knowledge of what masses may be present.
 
 See: [Open Modication Workflow Documentation](http://nf-openmod-dda.rtfd.io/)
+
+## AWS Batch
+
+Any of these workflows may be optionally run using AWS Batch. Follow the link below for instructions to set up, configure, and run workflows using AWS Batch.
+
+See: [Open AWS Batch Documentation](http://teirex-aws-setup.rtfd.io/)
