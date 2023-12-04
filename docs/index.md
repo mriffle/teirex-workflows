@@ -28,3 +28,8 @@ See: [Open Modication Workflow Documentation](http://nf-openmod-dda.rtfd.io/)
 Any of these workflows may be optionally run using AWS Batch. Follow the link below for instructions to set up, configure, and run workflows using AWS Batch.
 
 See: [Open AWS Batch Documentation](http://teirex-aws-setup.rtfd.io/)
+
+## Funding & Attribution
+
+This work was made possible with funding from IARPA via the TEI-REX program (Contract #: W911NF2220059). The contents of
+these documents are purely technical in nature, with no opinions or perspectives of the US Goverment's interests in TEI-REX.
